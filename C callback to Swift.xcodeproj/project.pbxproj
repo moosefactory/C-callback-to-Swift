@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC55902125B1ADED0017FDED /* C_callback_to_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55900E25B1ADEC0017FDED /* C_callback_to_SwiftApp.swift */; };
+		BC55902225B1ADED0017FDED /* C_callback_to_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55900E25B1ADEC0017FDED /* C_callback_to_SwiftApp.swift */; };
+		BC55902525B1ADED0017FDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC55901025B1ADED0017FDED /* Assets.xcassets */; };
+		BC55902625B1ADED0017FDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC55901025B1ADED0017FDED /* Assets.xcassets */; };
+		BC55903925B1AE140017FDED /* MyCLibraryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55903525B1AE140017FDED /* MyCLibraryInterface.swift */; };
+		BC55903A25B1AE140017FDED /* MyCLibraryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55903525B1AE140017FDED /* MyCLibraryInterface.swift */; };
+		BC55903B25B1AE140017FDED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55903625B1AE140017FDED /* ContentView.swift */; };
+		BC55903C25B1AE140017FDED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55903625B1AE140017FDED /* ContentView.swift */; };
+		BC55903D25B1AE140017FDED /* MyCLibrary.c in Sources */ = {isa = PBXBuildFile; fileRef = BC55903725B1AE140017FDED /* MyCLibrary.c */; };
+		BC55903E25B1AE140017FDED /* MyCLibrary.c in Sources */ = {isa = PBXBuildFile; fileRef = BC55903725B1AE140017FDED /* MyCLibrary.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC55900E25B1ADEC0017FDED /* C_callback_to_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C_callback_to_SwiftApp.swift; sourceTree = "<group>"; };
+		BC55901025B1ADED0017FDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC55901525B1ADED0017FDED /* C callback to Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C callback to Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55901825B1ADED0017FDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC55901D25B1ADED0017FDED /* C callback to Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C callback to Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC55901F25B1ADED0017FDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC55902025B1ADED0017FDED /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BC55903325B1AE130017FDED /* C callback to Swift (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C callback to Swift (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC55903425B1AE130017FDED /* C callback to Swift (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C callback to Swift (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC55903525B1AE140017FDED /* MyCLibraryInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCLibraryInterface.swift; sourceTree = "<group>"; };
+		BC55903625B1AE140017FDED /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC55903725B1AE140017FDED /* MyCLibrary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MyCLibrary.c; sourceTree = "<group>"; };
+		BC55903825B1AE140017FDED /* MyCLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLibrary.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC55901225B1ADED0017FDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55901A25B1ADED0017FDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC55900825B1ADEC0017FDED = {
+			isa = PBXGroup;
+			children = (
+				BC55900D25B1ADEC0017FDED /* Shared */,
+				BC55901725B1ADED0017FDED /* iOS */,
+				BC55901E25B1ADED0017FDED /* macOS */,
+				BC55901625B1ADED0017FDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC55900D25B1ADEC0017FDED /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BC55900E25B1ADEC0017FDED /* C_callback_to_SwiftApp.swift */,
+				BC55903625B1AE140017FDED /* ContentView.swift */,
+				BC55904125B1AE410017FDED /* Library */,
+				BC55903325B1AE130017FDED /* C callback to Swift (iOS)-Bridging-Header.h */,
+				BC55903425B1AE130017FDED /* C callback to Swift (macOS)-Bridging-Header.h */,
+				BC55901025B1ADED0017FDED /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BC55901625B1ADED0017FDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC55901525B1ADED0017FDED /* C callback to Swift.app */,
+				BC55901D25B1ADED0017FDED /* C callback to Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC55901725B1ADED0017FDED /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC55901825B1ADED0017FDED /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		BC55901E25B1ADED0017FDED /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				BC55901F25B1ADED0017FDED /* Info.plist */,
+				BC55902025B1ADED0017FDED /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		BC55904125B1AE410017FDED /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BC55903725B1AE140017FDED /* MyCLibrary.c */,
+				BC55903825B1AE140017FDED /* MyCLibrary.h */,
+				BC55903525B1AE140017FDED /* MyCLibraryInterface.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC55901425B1ADED0017FDED /* C callback to Swift (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55902925B1ADED0017FDED /* Build configuration list for PBXNativeTarget "C callback to Swift (iOS)" */;
+			buildPhases = (
+				BC55901125B1ADED0017FDED /* Sources */,
+				BC55901225B1ADED0017FDED /* Frameworks */,
+				BC55901325B1ADED0017FDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C callback to Swift (iOS)";
+			productName = "C callback to Swift (iOS)";
+			productReference = BC55901525B1ADED0017FDED /* C callback to Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC55901C25B1ADED0017FDED /* C callback to Swift (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC55902C25B1ADED0017FDED /* Build configuration list for PBXNativeTarget "C callback to Swift (macOS)" */;
+			buildPhases = (
+				BC55901925B1ADED0017FDED /* Sources */,
+				BC55901A25B1ADED0017FDED /* Frameworks */,
+				BC55901B25B1ADED0017FDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C callback to Swift (macOS)";
+			productName = "C callback to Swift (macOS)";
+			productReference = BC55901D25B1ADED0017FDED /* C callback to Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC55900925B1ADEC0017FDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BC55901425B1ADED0017FDED = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					BC55901C25B1ADED0017FDED = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = BC55900C25B1ADEC0017FDED /* Build configuration list for PBXProject "C callback to Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC55900825B1ADEC0017FDED;
+			productRefGroup = BC55901625B1ADED0017FDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC55901425B1ADED0017FDED /* C callback to Swift (iOS) */,
+				BC55901C25B1ADED0017FDED /* C callback to Swift (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC55901325B1ADED0017FDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55902525B1ADED0017FDED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55901B25B1ADED0017FDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55902625B1ADED0017FDED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC55901125B1ADED0017FDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55902125B1ADED0017FDED /* C_callback_to_SwiftApp.swift in Sources */,
+				BC55903925B1AE140017FDED /* MyCLibraryInterface.swift in Sources */,
+				BC55903B25B1AE140017FDED /* ContentView.swift in Sources */,
+				BC55903D25B1AE140017FDED /* MyCLibrary.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC55901925B1ADED0017FDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC55902225B1ADED0017FDED /* C_callback_to_SwiftApp.swift in Sources */,
+				BC55903A25B1AE140017FDED /* MyCLibraryInterface.swift in Sources */,
+				BC55903C25B1AE140017FDED /* ContentView.swift in Sources */,
+				BC55903E25B1AE140017FDED /* MyCLibrary.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC55902725B1ADED0017FDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC55902825B1ADED0017FDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BC55902A25B1ADED0017FDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.seqone.C-callback-to-Swift";
+				PRODUCT_NAME = "C callback to Swift";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/C callback to Swift (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC55902B25B1ADED0017FDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.seqone.C-callback-to-Swift";
+				PRODUCT_NAME = "C callback to Swift";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/C callback to Swift (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC55902D25B1ADED0017FDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.seqone.C-callback-to-Swift";
+				PRODUCT_NAME = "C callback to Swift";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/C callback to Swift (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC55902E25B1ADED0017FDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VMXFN634RR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moosefactory.seqone.C-callback-to-Swift";
+				PRODUCT_NAME = "C callback to Swift";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/C callback to Swift (macOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC55900C25B1ADEC0017FDED /* Build configuration list for PBXProject "C callback to Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55902725B1ADED0017FDED /* Debug */,
+				BC55902825B1ADED0017FDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC55902925B1ADED0017FDED /* Build configuration list for PBXNativeTarget "C callback to Swift (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55902A25B1ADED0017FDED /* Debug */,
+				BC55902B25B1ADED0017FDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC55902C25B1ADED0017FDED /* Build configuration list for PBXNativeTarget "C callback to Swift (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC55902D25B1ADED0017FDED /* Debug */,
+				BC55902E25B1ADED0017FDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC55900925B1ADEC0017FDED /* Project object */;
+}
